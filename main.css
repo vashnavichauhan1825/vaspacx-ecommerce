@@ -1,0 +1,14 @@
+@import url('https://vaspacx-components.netlify.app/style.css');
+
+:root{
+    --primary-color:#3A7CE3;
+    --secondary-color:#090332;
+    --bg-color:#000000;
+    --font-color:#FFFFFF;
+    --text-color:#303338;
+ }
+
+ body{
+     background-color:var(--bg-color);
+     margin:0;
+ }
