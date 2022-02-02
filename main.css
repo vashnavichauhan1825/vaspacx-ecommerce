@@ -6,6 +6,7 @@
      background-color:black;
      margin:0;
      display:block;
+     height:500vh;
  }
 
  /* contact nav */
@@ -46,21 +47,25 @@
 
 .bold-white-txt{
     color:var(--font-color);
-
+    font-weight:600;
 }
 .margin-right-5px{
 margin-right:5px;
 }
 
+.head-margin{
+   margin-right:5rem;
+}
 
 
-ul{
+
+.category-nav ul{
     list-style: none;
     margin-top: 417px;
     cursor: pointer;
 }
 
-ul li{
+.category-nav ul li{
     border: 1px solid var(--text-color);
     padding: 0px 1.3rem;
     display: flex;
@@ -71,6 +76,7 @@ ul li{
 }
 
 li:hover{
+    cursor: pointer;
     color:var(--text-color);
 }
 .bg-primary{
@@ -199,6 +205,7 @@ li:hover{
     display: flex;
     justify-content: center;
     gap: 80px;
+    margin-bottom: 60px;
 }
 
 .service-conatiner div{
@@ -211,7 +218,7 @@ li:hover{
 .feature-cont{
     /* background-color: blue; */
     width: auto;
-    height: 400px;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 0rem 10rem;
@@ -226,9 +233,6 @@ li:hover{
 .feature-first div ,
 .feature-third div{
     border: 1px solid var(--text-color);
-}
-.feature-second{
-    /* background-color: rgb(145, 222, 135); */
 }
 
 .feature-third{
@@ -258,6 +262,155 @@ li:hover{
 
 .heading-product{
     display: inline-block;
-    margin-left:10rem;
-    margin-bottom:3rem;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+}
+
+/* special feature */
+
+.feature-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* popular item */
+
+
+.popular-item{
+    height: 559px;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 141px;
+}
+
+.popular-item .item{
+    border: 1px solid var(--text-color);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+.popular-item .item1{
+    grid-row: 1/ span 2;
+    background: url(./img/camera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.popular-item .item2{
+    background: url(./img/globe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.popular-item .item3{
+    background: url(./img/light.jpg);
+    background-size: cover;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    /* justify-content: start; */
+    align-items: center;
+}
+
+.popular-item .outl-btn{
+    background:transparent;
+}
+
+
+
+
+
+.feature-second img{
+    width: 300px;
+    height: 268px;
+    border-radius: 5px;
+}
+
+.countdown{
+    margin-top: 16px;
+    display: flex;
+    width: 73%;
+    justify-content: space-around;
+}
+
+.countdown span{
+    border: 2px solid var(--text-color);
+    padding: 5px 7px;
+    border-radius: 9px;
+}
+
+.countdown-name{
+    display: flex;
+    gap: 46px;
+    margin-top: 10px;
+}
+
+/* popular category */
+
+.popular-category{
+    height: 237px;
+    display: grid;
+    margin: 0px 11rem;
+    gap: 40px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.popular-category .pc-first{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid var(--text-color);
+    border-radius: 16px;
+    padding: 5px 7px;
+}
+
+
+
+.flex-center-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-category ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 7px;
+    letter-spacing: 1px;
+}
+
+.popular-category li{
+    list-style:none;
+}
+
+.popular-category img{
+    width: 123px;
+    height: 103px;
+}
+
+.popular-item i{
+    font-size:20px;
+}
+
+/* popular review */
+
+.popular-category .review{
+    background-color: turquoise;
+    display:grid;
 }
