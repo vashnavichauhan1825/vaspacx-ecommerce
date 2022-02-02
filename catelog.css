@@ -1,0 +1,43 @@
+@import url('https://vaspacx-home.netlify.app/main.css');
+
+
+
+aside{
+    width: 12vw;
+    /* background-color: var(--secbg-color); */
+    height: 200vh;
+    margin-left: 11rem;
+    margin-top:2rem;
+}
+
+.brand{
+    border-bottom: 1px solid var(--text-color);
+    padding: 21px 0px;
+}
+.brand label{
+font-size: 0.8rem;
+}
+
+.price-range{
+    border-bottom: 1px solid var(--text-color);
+    padding: 5px 0px;
+}
+
+.price-range div{
+    margin-bottom: 14px;
+}
+
+section{
+    position: relative;
+}
+
+.catalog-nav{
+    display: flex;
+    width: 62vw;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    right: 7%;
+}
