@@ -412,5 +412,13 @@ li:hover{
 
 .popular-category .review{
     background-color: turquoise;
-    display:grid;
+    display: grid;
+    grid-template-rows: repeat(5,39px);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.r-color{
+    color:var(--review-color);
 }
