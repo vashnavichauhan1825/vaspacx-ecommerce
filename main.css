@@ -125,7 +125,7 @@ li:hover{
     padding: 8px 8px;
     border-radius: 5px; 
 }
-.search-nav input{
+.search-nav #input{
     background-color: transparent;
     border: 1px solid var(--text-color);
     padding: 8px 5px;
@@ -428,7 +428,7 @@ li:hover{
     border-radius: 11px;
 }
 
-.letter-container input{
+.letter-container #input{
     width: 15rem;
     display: inline-block;
 }
