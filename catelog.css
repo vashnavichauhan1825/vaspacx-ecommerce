@@ -47,6 +47,35 @@ main{
     top: 10%;
     width: 69vw;
     right: 2%;
-    background-color: white;
-    height: 50vh;   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100vh;
+    gap: 30px;
+}
+
+main .product-display{
+width: auto;
+height: auto;
+position: relative;
+}
+
+.product-display button{
+    width: 148px;
+    cursor: pointer;
+}
+.product-display button:hover{
+   opacity:0.8;
+}
+
+main .product-display i{
+    position: absolute;
+    top: 5%;
+    color: var(--text-color);
+    font-size: 20px;
+    right: 7%;
+    cursor: pointer;
+}
+
+main .product-display i:hover{
+    color:var(--font-color);
 }
