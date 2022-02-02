@@ -91,7 +91,7 @@ li:hover{
     padding-bottom: 23px;
     background: -webkit-linear-gradient(
 349deg
-,white 25%, #3a7ce3 29%);
+,white 39%, #3a7ce3 29%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -183,7 +183,7 @@ li:hover{
     padding: 1rem;
     align-items: flex-start;
     left: 34%;
-    box-shadow: 0px 0px 10px 5px var(--text-color);
+    box-shadow:0px 0px 7px -1px var(--text-color);
     height: 23rem;
     border-radius: 5px;
     background: url(./img/telescope.jpg);
@@ -368,7 +368,7 @@ li:hover{
 .popular-category .pc-first{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    border: 1px solid var(--text-color);
+    background-color:var(--secbg-color);
     border-radius: 16px;
     padding: 5px 7px;
 }
