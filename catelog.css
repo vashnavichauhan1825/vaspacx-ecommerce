@@ -13,6 +13,7 @@ aside{
 .brand{
     border-bottom: 1px solid var(--text-color);
     padding: 21px 0px;
+    cursor: pointer;
 }
 .brand label{
 font-size: 0.8rem;
@@ -57,6 +58,7 @@ main .product-display{
 width: auto;
 height: auto;
 position: relative;
+cursor: pointer;
 }
 
 .product-display button{
