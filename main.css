@@ -57,6 +57,10 @@ margin-right:5px;
    margin-right:5rem;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 
 
 .category-nav ul{
@@ -331,8 +335,8 @@ li:hover{
 
 
 .feature-second img{
-    width: 300px;
-    height: 268px;
+    width: 316px;
+    height: 298px;
     border-radius: 5px;
 }
 
@@ -406,8 +410,7 @@ li:hover{
 }
 
 /* popular review */
-
-.popular-category .review{
+ .review{
     background-color:var(--secbg-color);
     display: grid;
     grid-template-rows: repeat(5,39px);
@@ -431,4 +434,33 @@ li:hover{
 .letter-container #input{
     width: 15rem;
     display: inline-block;
+}
+
+/* footer  */
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 260px;
+    background-color:var(--secbg-color);
+    line-height: 2;
+}
+
+footer .review{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    background:transparent;
+}
+
+footer .vaspacx{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    background: -webkit-linear-gradient( 
+349deg
+ ,white 22%, #3a7ce3 17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
