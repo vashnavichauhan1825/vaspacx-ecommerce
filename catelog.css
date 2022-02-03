@@ -216,3 +216,39 @@ list-style:none;
     color:var(--primary-color);
 }
 
+/* wishlist section */
+
+.wishlist-section{
+    margin: 10px 2rem 2rem 11rem;
+    height: 250vh;
+}
+
+.wishlist-item-container{
+    width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin: 15px;
+    display: grid;
+}
+
+.wishlist-item-container .product-display{
+    width: auto;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    }
+    
+   
+    
+    .wishlist-item-container .product-display i{
+        position: absolute;
+        top: 5%;
+        color: var(--text-color);
+        font-size: 20px;
+        right: 7%;
+        cursor: pointer;
+    }
+    
+    .wishlist-item-container .product-display i:hover{
+        color:var(--font-color);
+    }
