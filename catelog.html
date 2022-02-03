@@ -16,11 +16,12 @@
         <button class="icon-button bold-grey-text"><i class="fa fa-github" aria-hidden="true"></i>Github</button>
         <button class="icon-button bold-grey-text"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</button>
     </div>
-    <div class="contact-nav-btn">
+    <div>
         
         <a href="https://vaspacx-login-page.netlify.app/signup.html"><small class="bold-grey-text">Login <i class="fa fa-user" aria-hidden="true"></i></small></a>
     </div>
 </div>
+<img src="./img/sun.png" id="icon">
 <div class="search-nav">
 
     <span class="vaspacx"><a href="https://vaspacx-home.netlify.app/mainpage.html">vaspac<i class="fa fa-xing" aria-hidden="true"></i></a></span>
@@ -324,5 +325,16 @@
   </div>
 </footer>
 </body>
+<script>
+    var icon = document.getElementById("icon");
 
+    icon.onclick = function(){
+      document.body.classList.toggle("light-theme");
+      if(document.body.classList.contains("light-theme")){
+        icon.src="./img/moon.png";
+      }else{
+        icon.src = "./img/sun.png"
+      }
+    }
+  </script>
 </html>
