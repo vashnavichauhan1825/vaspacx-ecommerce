@@ -296,5 +296,17 @@
                   <p><i class="fa fa-shopping-bag" aria-hidden="true"></i> <small>Return within 30days</small><small class="bold-grey-text"> of receiving your order</small></p>
             </div>
           </footer>
+          <script>
+            var icon = document.getElementById("icon");
+        
+            icon.onclick = function(){
+              document.body.classList.toggle("light-theme");
+              if(document.body.classList.contains("light-theme")){
+                icon.src="./img/moon.png";
+              }else{
+                icon.src = "./img/sun.png"
+              }
+            }
+          </script>
     </body>
     </html> 
