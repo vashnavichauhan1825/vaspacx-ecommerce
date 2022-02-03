@@ -17,6 +17,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     height: 100vh;
+    color:var(--font-primary);
     padding: 0;
     background-color: var(--secondaryDark);
     display: grid;
