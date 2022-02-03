@@ -12,6 +12,9 @@ aside{
     margin-top:2rem;
 }
 
+a{
+    text-decoration:none;
+}
 .brand{
     border-bottom: 1px solid var(--text-color);
     padding: 21px 0px;
