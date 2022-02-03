@@ -439,6 +439,8 @@ li:hover{
 /* footer  */
 
 footer{
+    position:absolute;
+    bottom:0%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     height: 260px;
