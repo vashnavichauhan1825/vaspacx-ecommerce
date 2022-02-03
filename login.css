@@ -1,3 +1,4 @@
+@import url('https://vaspacx-components.netlify.app/style.css');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap');
 
 :root{
@@ -12,14 +13,15 @@
 
 body{
     box-sizing: border-box;
-    margin:0;
-    height:100vh;
-    padding:0;
-    display:flex;
-    justify-content:center;
-    gap:20%;
-    align-items:center;
-    background-color:var(--bg-color);
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -34,7 +36,6 @@ body{
 }
 
 .container-login .cont-left{
-    width: 80%;
     height: auto;
     padding: 0px 30px 20px 30px;
 }
@@ -46,7 +47,7 @@ body{
 }
 
 
-.btn-container{
+.btn-container-login{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +57,7 @@ body{
     margin-bottom: 30px;
 }
 
-.btn-container button{
+.btn-container-login button{
     width: 99%;
     height: 37px;
     border-radius: 5px;
@@ -110,10 +111,56 @@ body{
     width:50%;
 }
 
-.login-logo-container{
+.vaspacx{
+    font-family: 'Roboto', sans-serif;
+    font-size: 74px;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    background: -webkit-linear-gradient(
+349deg
+,white 39%, #3a7ce3 29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+.login-cont{
+    display:flex;
+    justify-content:center;
+    gap:20%;
+    align-items:center;
+   
+   
+}
+.login-logo-container{
+    width: 100%;
+    /* background-color: blue; */
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .login-logo-container .social-logo-cont{
-    
+    color: var(--font-color);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 44px;
+    font-size: 20px;
+}
+
+.social-logo-cont i{
+    border-radius:50%;
+    padding: 10px;
+    cursor: pointer;
+    transition:all 0.2s ease-in-out;
+}
+
+.social-logo-cont i:hover{
+    color:var(--primary-color);
+   box-shadow: 0px 0px 17px 5px var(--primary-color);;
+}
+
+.pointer{
+    cursor:pointer;
 }
