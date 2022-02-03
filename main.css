@@ -6,7 +6,7 @@
      background-color:black;
      margin:0;
      display:block;
-     height:530vh;
+     height:573vh;
      position:relative;
  }
 
@@ -182,7 +182,7 @@ li:hover{
     position: absolute;
     width: 46rem;
     font-size: 1.5rem;
-    top: 31%;
+    top: 5.6%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
