@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap');
 
 :root{
-   --mainBrandColor:#3A7CE3;
-   --secBrandColor:#090332;
-   --secondaryDark:#000000;
-   --font-primary:#FFFFFF;
-   --lightGrey:#585a5e;
-   --review-color:#ffb000;
-   --secbg-color:#141212;
+ 
+    --mainBrandColor: #3a7ce3;
+    --secBrandColor: #090332;
+    --secondaryDark: #211c1c;
+    --font-primary: #FFFFFF;
+    --lightGrey: rgb(114 110 110);
+    --review-color: #ffb000;
+    --secbg-color: #141212;
+ 
 }
 
 body{
