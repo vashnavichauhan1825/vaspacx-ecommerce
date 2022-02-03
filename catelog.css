@@ -16,7 +16,7 @@ a{
     text-decoration:none;
 }
 .brand{
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--lightGrey);
     padding: 21px 0px;
     cursor: pointer;
 }
@@ -25,7 +25,7 @@ font-size: 0.8rem;
 }
 
 .price-range{
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--lightGrey);
     padding: 5px 0px;
 }
 
@@ -78,14 +78,14 @@ cursor: pointer;
 main .product-display i{
     position: absolute;
     top: 5%;
-    color: var(--text-color);
+    color: var(--lightGrey);
     font-size: 20px;
     right: 7%;
     cursor: pointer;
 }
 
 main .product-display i:hover{
-    color:var(--font-color);
+    color:var(--font-primary);
 }
 
 
@@ -116,7 +116,7 @@ gap: 12px;
 
 
 .cartitem-one{
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--lightGrey);
     /* background-color: var(--secbg-color); */
     border-top-left-radius: 5px;
     /* border-top-right-radius: 5px; */
@@ -155,7 +155,7 @@ list-style:none;
 
 .cartitem-one span{
     position: relative;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--lightGrey);
     padding: 5px 20px;
     border-radius: 5px;
 }
@@ -168,7 +168,7 @@ list-style:none;
 }
 
 .cartitem-one span .down:hover{
-    color:var(--text-color);
+    color:var(--lightGrey);
 }
 
 .cartitem-one span .up{
@@ -178,7 +178,7 @@ list-style:none;
     right: 8%;
 }
 .cartitem-one span .up:hover{
-    color:var(--text-color);
+    color:var(--lightGrey);
 }
 
 /* cart summary */
@@ -203,14 +203,14 @@ list-style:none;
 }
 
 .border-bottom{
-    border-bottom:1px solid var(--text-color);
+    border-bottom:1px solid var(--lightGrey);
     margin-top: 13px;
 }
 
 .button-shopping{
     background: transparent;
-    color: var(--font-color);
-    border: 2px solid var(--text-color);
+    color: var(--font-primary);
+    border: 2px solid var(--lightGrey);
     border-radius: 5px;
     padding: 10px;
     margin-top: 66px;
@@ -219,7 +219,7 @@ list-style:none;
 }
 
 .button-shopping:hover{
-    color:var(--primary-color);
+    color:var(--mainBrandColor);
 }
 
 /* wishlist section */
@@ -249,14 +249,14 @@ list-style:none;
     .wishlist-item-container .product-display i{
         position: absolute;
         top: 5%;
-        color: var(--text-color);
+        color: var(--lightGrey);
         font-size: 20px;
         right: 7%;
         cursor: pointer;
     }
     
     .wishlist-item-container .product-display i:hover{
-        color:var(--font-color);
+        color:var(--font-primary);
     }
 
     .margin-left-11x{
