@@ -20,6 +20,9 @@
     border-bottom: 1px solid var(--text-color);
 }
 
+a{
+    text-decoration: none;
+}
 .top-section{
     width: 100vw;
     height: 62vh;
