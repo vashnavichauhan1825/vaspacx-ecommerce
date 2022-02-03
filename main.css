@@ -3,7 +3,7 @@
 
 
  body{
-     background-color:black;
+     background-color:var(--secondaryDark);
      margin:0;
      display:block;
      height:573vh;
