@@ -17,12 +17,12 @@
     justify-content: space-between;
     align-items:center;
     padding: 7px 179px 8px;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--lightGrey);
 }
 
 a{
     text-decoration: none;
-    color:var(--font-color);
+    color:var(--font-primary);
 }
 .top-section{
     width: 100vw;
@@ -46,12 +46,12 @@ a{
  /* classes for all */
 
  .bold-grey-text{
-    color: var(--text-color);
+    color: var(--lightGrey);
     font-weight: 600;
  }
 
 .bold-white-txt{
-    color:var(--font-color);
+    color:var(--font-primary);
     font-weight:600;
 }
 .margin-right-5px{
@@ -75,7 +75,7 @@ margin-right:5px;
 }
 
 .category-nav ul li{
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--lightGrey);
     padding: 0px 1.3rem;
     display: flex;
     justify-content: space-between;
@@ -86,10 +86,10 @@ margin-right:5px;
 
 li:hover{
     cursor: pointer;
-    color:var(--text-color);
+    color:var(--lightGrey);
 }
 .bg-primary{
-    background-color:var(--primary-color);
+    background-color:var(--mainBrandColor);
 }
 
  /* logo */
@@ -100,7 +100,7 @@ li:hover{
     padding-bottom: 23px;
     background: -webkit-linear-gradient(
 349deg
-,white 39%, #3a7ce3 29%);
+,var(--font-primary) 39%, var(--mainBrandColor) 29%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -111,7 +111,7 @@ li:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--lightGrey);
     /* height: 57px; */
     /* padding: 27px 0px; */
     height: 100px;
@@ -124,22 +124,22 @@ li:hover{
 }
  select{
     background-color: transparent;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--lightGrey);
     padding: 8px 8px;
     border-radius: 5px;
 }
  option{
     background-color: transparent;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--lightGrey);
     padding: 8px 8px;
     border-radius: 5px; 
 }
 .search-nav #input{
     background-color: transparent;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--lightGrey);
     padding: 8px 5px;
     border-radius: 5px;
-    color: var(--text-color);
+    color: var(--lightGrey);
     width:30rem;
 }
 
@@ -151,8 +151,8 @@ li:hover{
 }
 
 .cart-nav-cont i{
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
+    color: var(--lightGrey);
+    border: 1px solid var(--lightGrey);
     padding: 5px;
     font-size: 1.3rem;
     border-radius:5px;
@@ -161,14 +161,14 @@ li:hover{
 
 
 .badge .icon-bell{
-    background-color:#3a7ce3;
+    background-color:var(--mainBrandColor);
     top: -19%;
     left: 67%;
   }
 
 .badge  .x-icon{
     font-size: 2rem;
-    color:var(--text-color); 
+    color:var(--lightGrey); 
   }
 
   .category-nav{
@@ -177,7 +177,7 @@ li:hover{
     height:50px;
     align-items:center;
     padding: 7px 179px 8px;
-    border-bottom: 1px solid var(--text-color);  
+    border-bottom: 1px solid var(--lightGrey);  
   }
 
   /* section start */
@@ -192,7 +192,7 @@ li:hover{
     padding: 1rem;
     align-items: flex-start;
     left: 34%;
-    box-shadow:0px 0px 7px -1px var(--text-color);
+    box-shadow:0px 0px 7px -1px var(--lightGrey);
     height: 23rem;
     border-radius: 5px;
     background: url(./img/telescope.jpg);
@@ -298,7 +298,7 @@ li:hover{
 }
 
 .popular-item .item{
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--lightGrey);
     border-radius: 10px;
     display: flex;
     padding: 20px;
@@ -353,7 +353,7 @@ li:hover{
 }
 
 .countdown span{
-    border: 2px solid var(--text-color);
+    border: 2px solid var(--lightGrey);
     padding: 5px 7px;
     border-radius: 9px;
 }
