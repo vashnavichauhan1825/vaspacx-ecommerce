@@ -371,11 +371,10 @@ li:hover{
 /* popular category */
 
 .popular-category{
-    /* height: 237px; */
-    display: grid;
-    margin: 0px 11rem;
-    gap: 40px;
-    grid-template-columns: repeat(3,1fr);
+       display: grid;
+       gap: 40px;
+       justify-content: center;
+       grid-template-columns: repeat(3,328px);
 }
 
 .popular-category .pc-first{
