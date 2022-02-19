@@ -31,9 +31,12 @@
     right: 2%;
 }
 body{
-    box-sizing: border-box;
+    height: 100vh; 
     margin: 0;
-    height: 100vh;
+}
+
+.login-box{
+    box-sizing: border-box;
     color:var(--font-primary);
     padding: 0;
     background-color: var(--secondaryDark);
@@ -43,7 +46,6 @@ body{
     align-items: center;
     font-family: 'Manrope', sans-serif;
 }
-
 .container-login{
     width: 388px;
     height: 539px;
