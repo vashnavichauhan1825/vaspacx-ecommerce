@@ -5,8 +5,9 @@
  body{
     background-color: var(--secondaryDark);
     margin: 0;
-    display: block;
     height: auto;
+    overflow-x:hidden;
+    width:100vw;
  }
 
  /* contact nav */
