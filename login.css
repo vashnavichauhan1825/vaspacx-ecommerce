@@ -41,7 +41,6 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 21px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -185,4 +184,13 @@ body{
 
 .pointer{
     cursor:pointer;
+}
+
+a{
+    color:var(--lightGrey);
+}
+
+.astronaut-cont img{
+    width: 512px;
+    height: 654px;
 }
