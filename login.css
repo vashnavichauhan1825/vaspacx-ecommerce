@@ -39,6 +39,7 @@ body{
 .login-box{
     box-sizing: border-box;
     color:var(--font-primary);
+    height:100vh;
     padding: 0;
     background-color: var(--secondaryDark);
     display: grid;
