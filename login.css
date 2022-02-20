@@ -15,12 +15,12 @@
 
 .light-theme{
     --mainBrandColor: #3a7ce3;
-   --secondaryDark: #eef0fd;
-   --font-primary: rgb(0 0 0);
-   --lightGrey: rgb(114 110 110);
-   --review-color: #ffb000;
-   --secbg-color: #e2e0ec;
-   --logo-color:black;
+    --secondaryDark: #c8cad74a;
+    --font-primary: rgb(0 0 0);
+    --lightGrey: rgb(114 110 110);
+    --review-color: #ffb000;
+    --secbg-color: #e2e0ec;
+    --logo-color: black;
 }
 
 #icon-login{
