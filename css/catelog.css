@@ -6,7 +6,6 @@ body{
 
 aside{
     width: 12vw;
-    /* background-color: var(--secbg-color); */
     height: 200vh;
     margin-left: 11rem;
     margin-top:2rem;
@@ -15,9 +14,6 @@ aside{
 #icon{
     width: 20px;
     cursor: pointer;
-    position: absolute;
-    top: 0.5%;
-    right: 2%;
 }
 
 a{
@@ -121,13 +117,9 @@ gap: 12px;
     grid-template-columns: 506px 266px 1fr;
 }
 
-
-
 .cartitem-one{
     border-bottom: 1px solid var(--lightGrey);
-    /* background-color: var(--secbg-color); */
     border-top-left-radius: 5px;
-    /* border-top-right-radius: 5px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,8 +136,6 @@ gap: 12px;
 .item-name ul{
 list-style:none;
 }
-
-
 
 .item-name img{
     width: 110px;
@@ -251,8 +241,6 @@ list-style:none;
     position: relative;
     cursor: pointer;
     }
-    
-   
     
     .wishlist-item-container .product-display i{
         position: absolute;
