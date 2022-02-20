@@ -4,12 +4,12 @@
 :root{
  
     --mainBrandColor: #3a7ce3;
-    --secondaryDark: #211c1c;
+    --secondaryDark: #0a1423;
     --font-primary: #FFFFFF;
     --lightGrey: rgb(114 110 110);
     --review-color: #ffb000;
-    --secbg-color: #141212;
-    --logo-color:white;
+    --secbg-color: #000000;
+    --logo-color: white;
  
 }
 
