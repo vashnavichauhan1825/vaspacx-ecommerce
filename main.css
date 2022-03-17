@@ -473,3 +473,11 @@ footer .vaspacx{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.clr-primary{
+    color:var(--mainBrandColor);
+}
+
+.clr-white{
+    color:var(--font-primary)
+}
